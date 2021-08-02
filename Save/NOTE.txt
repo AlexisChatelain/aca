@@ -1,0 +1,10 @@
+Ce dossier sert aux tâches planifiées.
+Il recueille les sauvegardes quotidiennes de la base de données générées par "cron.php"
+cron.php supprime les dossiers, utilisateurs, cheques et commandes non confirmés quotidiennement et crée une sauvegarde.
+
+!!! ATTENTION !!!
+
+- Lors d'une potentielle imporation de la base, pensez à décocher la case "Activer la vérification des clés étrangères".
+Les clés étrangères seront évidemment bien importées, il faut décocher la case car l'export automatique n'est pas aussi intelligent que l'export manuelle
+ et n'organise pas correctement le fichier sql et crée donc des problèmes de clés étrangères.
+ 

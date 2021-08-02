@@ -1,0 +1,225 @@
+body{
+	overflow-x: hidden;
+}
+
+.row{
+	padding: 15px;
+	margin-left: -15px;
+    margin-right: -15px;
+	font-size: 16px;
+}
+
+.box{
+	border-radius: 3px;
+	background: #ffffff;
+	margin-bottom: 20px;
+	width: 100%;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.box-header{
+	border-bottom: 1px solid #f4f4f4;
+	color: #444;
+    display: block;
+    padding: 10px;
+    position: relative;
+}
+
+.btn-group{
+	position: relative;
+    display: inline-block;
+    vertical-align: middle;
+	margin-bottom: 10px;
+}
+
+.box-title{
+	display: inline-block;
+    font-size: 18px;
+    margin: 0;
+}
+
+.box-body .fc {
+  margin-top: 5px;
+}
+
+.box-body{
+	padding: 10px;
+}
+
+.bg-red{
+	background-color: #dd4b39;
+}
+
+.bg-aqua{
+	background-color: #00c0ef;
+}
+
+.bg-yellow{
+	background-color: #f39c12;
+}
+
+.external-event {
+    padding: 5px 10px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    cursor: move;
+}
+
+.external-event:hover {
+	box-shadow: inset 0 0 90px rgba(0, 0, 0, 0.2);
+}
+
+.calendrier{
+	border-top: 3px solid #3c8dbc;
+}
+
+.no-padding{
+	padding:0;
+}
+
+.form-control {
+	height: 38px;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-group {
+	display: table;
+}
+.input-group .form-control:first-child{
+	border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+	width: 100%;
+}
+#link-event{
+width: 100%;
+}
+.input-group-btn {
+    position: relative; 
+    font-size: 0; 
+    white-space: nowrap;
+	width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+	display: table-cell;
+}
+
+#add-new-event, #save-events {
+	margin-left: -1px;
+	padding: 10px 12px;
+	border-radius: 4px;
+	font-size: 14px;
+}
+
+#save-events {
+	color: white;
+	background: #5cb85c;
+	border-color: #5cb85c;
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#add-new-event:hover, #save-events:hover {
+	cursor: pointer;
+}
+
+#save-events:hover {
+	background: #449d44;
+	border-color: #449d44;
+}
+
+#color-picker{
+	width: 100%;
+	height: 25px;
+	display:inline-block;
+	margin-bottom: 10px;
+	border-radius:5px;
+}
+/*
+ * Plugin: Full Calendar
+ * ---------------------
+ */
+.fc-button {
+  background: #f4f4f4;
+  background-image: none;
+  color: #444;
+  border-color: #ddd;
+  border-bottom-color: #ddd;
+}
+.fc-button:hover,
+.fc-button:active,
+.fc-button.hover {
+  background-color: #e9e9e9;
+}
+.fc-header-title h2 {
+  font-size: 15px;
+  line-height: 1.6em;
+  color: #666;
+  margin-left: 10px;
+}
+.fc-header-right {
+  padding-right: 10px;
+}
+.fc-header-left {
+  padding-left: 10px;
+}
+.fc-widget-header {
+  background: #fafafa;
+}
+.fc-grid {
+  width: 100%;
+  border: 0;
+}
+.fc-widget-header:first-of-type,
+.fc-widget-content:first-of-type {
+  border-left: 0;
+  border-right: 0;
+}
+.fc-widget-header:last-of-type,
+.fc-widget-content:last-of-type {
+  border-right: 0;
+}
+.fc-toolbar {
+  padding: 10px;
+  margin: 0;
+}
+.fc-day-number {
+  font-size: 20px;
+  font-weight: 300;
+  padding-right: 10px;
+}
+
+
+/*END PLUGIN*/
+
+/*TABLEAU*/
+
+@media (min-width: 992px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left; }
+
+  .col-md-3 {
+    width: 25%; }
+
+  .col-md-9 {
+    width: 75%; }
+
+  .col-md-12 {
+    width: 100%; }
+ }
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}

@@ -1,0 +1,117 @@
+﻿/* Dossier d'inscription */
+
+#dossier_inscription{
+margin-left:20pt;
+width:96.5%;
+overflow: hidden;
+}
+#dossier_inscription  h1 {
+margin-left:-20pt;
+color : darkblue;
+}
+#dossier_inscription legend{
+font-weight:bold;
+/*color: orange;*/
+}
+#dossier_inscription label,input{
+font-weight:normal;
+margin-top:20px;
+ }
+#dossier_inscription fieldset{
+margin-bottom:30px;	
+}
+#dossier_inscription li {
+list-style-type: '➢ ';  /*Alt+0216 ➢ */
+
+}
+#dossier_inscription .fichier{
+margin-top:-20px;
+}
+#confirm{
+padding:20pt;
+width:50%;
+text-align:center;
+margin-bottom:30px;	
+}
+#valid{
+background-color: lightgreen;
+padding:20pt;
+width:50%;
+}
+#div_confirmation{
+text-align:center;
+}
+#dossier_inscription .entete{
+	float:left;
+	text-align:center;
+	width:33%;
+}
+#dossier_inscription #div_entete{
+float:left;
+width:100%;
+margin-bottom:2%;
+}
+
+#dossier_inscription #formulaire{
+width:100%;
+float:left;
+}
+#dossier_inscription .bouton{
+
+background-color: lightgreen;
+padding:20pt;
+width:30%;
+}
+#dossier_inscription .cadre{
+ border:solid 1px black; 	
+ width:200px; 	
+ height:200px; 
+ margin-right:20pt;}
+#dossier_inscription #barre{
+	 border: solid 1pt black;	 
+	 text-align:center;
+ }
+#dossier_inscription #valider{
+	 text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+ }
+#dossier_inscription  .table_fin_page{
+	 text-align:center;
+	 width:33%;
+ }
+ #dossier_inscription #table_fin_page1{
+	 width:100%;
+ }
+#dossier_inscription  #effacer1, #effacer2, #effacer3, #effacer4{
+ width:100pt;
+ }
+ 
+ #dossier_inscription #p_montant{
+ font-weight:bold;
+ font-size:24pt;
+ width:50%;     
+ margin-left: auto;
+ margin-right: auto;
+text-align:center;
+ 
+ } 
+ 
+ #dossier_inscription #tbody_cheques , #centre{	
+     margin-left: auto;
+    margin-right: auto;
+	 text-align:center;
+ }
+#table_erreur_inscription{
+margin: 0 auto;
+}
+
+ #dossier_inscription  #p_renouvellement{
+  font-size:24pt;
+ border: solid 5pt red;
+ padding-left:5px;
+  }
+  
+#tbody_cheques #cheque{
+	padding-top:20px;
+}
